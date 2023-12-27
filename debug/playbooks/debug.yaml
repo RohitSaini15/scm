@@ -1,0 +1,8 @@
+---
+- name: print hello world
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: say hello
+      debug:
+        msg: hellooooo
